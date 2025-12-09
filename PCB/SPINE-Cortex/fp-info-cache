@@ -1,4 +1,4 @@
-26474208328490221
+26475973814049611
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69165,7 +69165,7 @@ DRR0012E
 LM74800QDRRRQ1 
 0
 16
-16
+13
 LP5907SNX-3.0_NOPB
 VREG_LP5907SNX-3.0_NOPB
 
@@ -98153,6 +98153,13 @@ Logo WEEE
 0
 0
 0
+TMCS1126A1BQDVGRQ1
+SOIC10_DVG_TEX
+
+TMCS1126A1BQDVGRQ1 
+0
+10
+10
 TPS62840DLCR
 SON50P200X150X100-8N
 
