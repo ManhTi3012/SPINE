@@ -3684,7 +3684,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM393")
-		(at 212.09 148.59 0)
+		(at 182.88 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3693,7 +3693,7 @@
 		(fields_autoplaced yes)
 		(uuid "172f80e3-0026-4cf2-86ec-c4c7e664b086")
 		(property "Reference" "U4"
-			(at 212.09 138.43 0)
+			(at 182.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3701,7 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 212.09 140.97 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,7 +3709,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 212.09 148.59 0)
+			(at 182.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3718,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 212.09 148.59 0)
+			(at 182.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +3727,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 212.09 148.59 0)
+			(at 182.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3851,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10R"
 			(at 46.99 138.43 90)
 			(effects
 				(font
@@ -5299,7 +5299,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100nF"
 			(at 149.352 135.636 0)
 			(effects
 				(font
@@ -5308,7 +5308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 145.0848 130.81 0)
 			(effects
 				(font
@@ -5605,28 +5605,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "9748dd4c-c70c-4487-9f26-b9e7c9c50c4a")
+			(uuid "9748dd4c-c70c-4487-9f26-b9e7c9c50c4b")
 		)
 		(pin "6"
-			(uuid "464d5c3a-e9c0-4c5b-93d7-8b966f7da8df")
+			(uuid "464d5c3a-e9c0-4c5b-93d7-8b966f7da8e0")
 		)
 		(pin "7"
-			(uuid "95cfcd3a-1c0d-435e-8c66-f27c4e69c754")
+			(uuid "95cfcd3a-1c0d-435e-8c66-f27c4e69c755")
 		)
 		(pin "1"
-			(uuid "590b2258-44e1-4650-b1f2-2c8ad0f765d6")
+			(uuid "590b2258-44e1-4650-b1f2-2c8ad0f765d7")
 		)
 		(pin "5"
-			(uuid "e88f98b0-2884-416a-a6a6-2f3d0a3348fc")
+			(uuid "e88f98b0-2884-416a-a6a6-2f3d0a3348fd")
 		)
 		(pin "3"
-			(uuid "8ee9d480-4de5-4002-af92-85d19a77625f")
+			(uuid "8ee9d480-4de5-4002-af92-85d19a776260")
 		)
 		(pin "4"
-			(uuid "acf46211-ec0c-4e1c-a166-a8f1c1e42857")
+			(uuid "acf46211-ec0c-4e1c-a166-a8f1c1e42858")
 		)
 		(pin "2"
-			(uuid "d4718ca6-8ff8-4e77-94be-0a92de3efbbe")
+			(uuid "d4718ca6-8ff8-4e77-94be-0a92de3efbbf")
 		)
 		(instances
 			(project ""
@@ -5721,7 +5721,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10R"
 			(at 97.79 138.43 90)
 			(effects
 				(font
@@ -7066,7 +7066,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10R"
 			(at 72.39 138.43 90)
 			(effects
 				(font
@@ -7170,28 +7170,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "9748dd4c-c70c-4487-9f26-b9e7c9c50c4a")
+			(uuid "9748dd4c-c70c-4487-9f26-b9e7c9c50c4c")
 		)
 		(pin "6"
-			(uuid "464d5c3a-e9c0-4c5b-93d7-8b966f7da8df")
+			(uuid "464d5c3a-e9c0-4c5b-93d7-8b966f7da8e1")
 		)
 		(pin "7"
-			(uuid "95cfcd3a-1c0d-435e-8c66-f27c4e69c754")
+			(uuid "95cfcd3a-1c0d-435e-8c66-f27c4e69c756")
 		)
 		(pin "1"
-			(uuid "590b2258-44e1-4650-b1f2-2c8ad0f765d6")
+			(uuid "590b2258-44e1-4650-b1f2-2c8ad0f765d8")
 		)
 		(pin "5"
-			(uuid "e88f98b0-2884-416a-a6a6-2f3d0a3348fc")
+			(uuid "e88f98b0-2884-416a-a6a6-2f3d0a3348fe")
 		)
 		(pin "3"
-			(uuid "8ee9d480-4de5-4002-af92-85d19a77625f")
+			(uuid "8ee9d480-4de5-4002-af92-85d19a776261")
 		)
 		(pin "4"
-			(uuid "acf46211-ec0c-4e1c-a166-a8f1c1e42857")
+			(uuid "acf46211-ec0c-4e1c-a166-a8f1c1e42859")
 		)
 		(pin "2"
-			(uuid "d4718ca6-8ff8-4e77-94be-0a92de3efbbe")
+			(uuid "d4718ca6-8ff8-4e77-94be-0a92de3efbc0")
 		)
 		(instances
 			(project ""

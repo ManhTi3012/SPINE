@@ -2586,6 +2586,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:WS2812B-2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LM74800QDRRRQ1:LM74800QDRRRQ1"
 			(pin_names
 				(offset 0.254)
@@ -6195,6 +6450,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 162.56) (xy 222.25 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522593a3-4086-42aa-a69c-6634061644fd")
+	)
+	(wire
+		(pts
 			(xy 259.08 162.56) (xy 273.05 162.56)
 		)
 		(stroke
@@ -6555,6 +6820,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 162.56) (xy 204.47 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd12c19-3dfd-4aa9-b99c-53a6a941c66e")
+	)
+	(wire
+		(pts
 			(xy 378.46 66.04) (xy 378.46 69.85)
 		)
 		(stroke
@@ -6765,7 +7040,7 @@
 			)
 		)
 	)
-	(global_label "SENSE_Out"
+	(global_label "CURRENT_SENSE"
 		(shape input)
 		(at 204.47 152.4 0)
 		(fields_autoplaced yes)
@@ -6777,7 +7052,7 @@
 		)
 		(uuid "04da5b4a-edc5-427f-8c58-69232aa92359")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.6755 152.4 0)
+			(at 223.0579 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,6 +7097,50 @@
 		(uuid "08018aa1-c3a9-494d-8ee9-b4448b28aaf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 64.77 172.8191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ID1"
+		(shape input)
+		(at 204.47 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08fa1842-282f-4a3f-82a1-6244a6a5079d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.5395 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOLTAGE_SENSE"
+		(shape input)
+		(at 204.47 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "095c7be8-5399-405a-a5ea-2742afdc4e59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.3927 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,28 +7234,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ID1"
-		(shape input)
-		(at 204.47 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f87f18b-bcbd-4ddb-949e-d151cdf8fc65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5395 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7130,28 +7427,6 @@
 		(uuid "450087fa-ecae-4eea-b8b2-32525fbe6948")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.9 245.6325 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VOLTAGE_SENSE"
-		(shape input)
-		(at 204.47 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "457c603e-a4a6-4e55-b459-1c027f55fc30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.3927 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,28 +7634,6 @@
 			)
 		)
 	)
-	(global_label "SENSE_Out"
-		(shape input)
-		(at 132.08 62.23 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7c6e0124-befa-4f09-b62e-741287709b89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 75.4355 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ORING_VS"
 		(shape input)
 		(at 59.69 92.71 90)
@@ -7469,28 +7722,6 @@
 			)
 		)
 	)
-	(global_label "LED_1"
-		(shape input)
-		(at 204.47 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "88d42335-e360-41d7-9e9c-4dfeabdddfcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.0794 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENABLE"
 		(shape input)
 		(at 153.67 157.48 180)
@@ -7537,7 +7768,29 @@
 	)
 	(global_label "LED_1"
 		(shape input)
-		(at 165.1 222.25 90)
+		(at 317.5 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96409714-d8d9-4e0e-baf2-2700c45d79f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.8906 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_1"
+		(shape input)
+		(at 222.25 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7545,9 +7798,9 @@
 			)
 			(justify left)
 		)
-		(uuid "96409714-d8d9-4e0e-baf2-2700c45d79f1")
+		(uuid "99355fee-5408-4f6c-8e72-3e6affd2d86a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1 213.6406 90)
+			(at 230.8594 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,6 +7894,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CURRENT_SENSE"
+		(shape input)
+		(at 132.08 62.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a584130a-4236-4b26-b7c4-c87af3537480")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 80.8179 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8021,7 +8296,7 @@
 	)
 	(global_label "BOOT"
 		(shape input)
-		(at 204.47 162.56 0)
+		(at 222.25 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8031,7 +8306,7 @@
 		)
 		(uuid "ef982099-8c5b-45ff-9daf-f0689155793a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.3538 162.56 0)
+			(at 230.1338 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,72 +10402,6 @@
 			(project "SPINE-Vertebra"
 				(path "/bb031c1b-8fdd-4a87-b6da-88a40b964020"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "389437ce-8999-4f88-baa1-d786a713ca04")
-		(property "Reference" "#PWR042"
-			(at 165.1 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c26ce70-1497-4692-a6e6-51493cc00fe9")
-		)
-		(instances
-			(project "SPINE-Vertebra"
-				(path "/bb031c1b-8fdd-4a87-b6da-88a40b964020"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12318,6 +12527,82 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 325.12 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6743fc7d-aa8b-4846-83fd-a64ddecc8d27")
+		(property "Reference" "D6"
+			(at 339.09 90.0998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 339.09 92.6398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 326.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 327.66 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 325.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06bd896a-ff52-4619-94e3-2f22a1832211")
+		)
+		(pin "3"
+			(uuid "69d975ec-3186-48b1-b748-69f56da80004")
+		)
+		(pin "2"
+			(uuid "9986d3ee-f36e-455b-8239-006df959188a")
+		)
+		(pin "4"
+			(uuid "b5328c5b-d15a-454a-bea3-f0f0987127fa")
+		)
+		(instances
+			(project ""
+				(path "/bb031c1b-8fdd-4a87-b6da-88a40b964020"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 220.98 68.58 270)
 		(unit 1)
@@ -13045,76 +13330,6 @@
 			(project "SPINE-Vertebra"
 				(path "/bb031c1b-8fdd-4a87-b6da-88a40b964020"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7789345d-2b27-46d2-8057-8b7d5f1f69c8")
-		(property "Reference" "R2"
-			(at 167.64 223.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 167.64 226.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 165.1 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "afa961f0-7f5d-4f62-943c-71402373b8f4")
-		)
-		(pin "1"
-			(uuid "f99a40c4-8cce-40be-be11-bdb817c7011c")
-		)
-		(instances
-			(project "SPINE-Vertebra"
-				(path "/bb031c1b-8fdd-4a87-b6da-88a40b964020"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14630,6 +14845,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 325.12 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a87255fc-b67e-4928-802d-fbbefbb40fe6")
+		(property "Reference" "#PWR042"
+			(at 325.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 325.12 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 325.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f96d50-5c66-4532-9c20-5ac24ffeea45")
+		)
+		(instances
+			(project "SPINE-Vertebra"
+				(path "/bb031c1b-8fdd-4a87-b6da-88a40b964020"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PRI_HI")
 		(at 152.4 222.25 0)
 		(unit 1)
@@ -15941,6 +16221,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 325.12 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d19a9444-0a21-44cd-aa29-515041c5c8d0")
+		(property "Reference" "#PWR021"
+			(at 325.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 325.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 325.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c1eaff6-faef-4ceb-b45e-8daf980ad1a5")
+		)
+		(instances
+			(project "SPINE-Vertebra"
+				(path "/bb031c1b-8fdd-4a87-b6da-88a40b964020"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 278.13 187.96 0)
 		(unit 1)
@@ -16419,85 +16765,6 @@
 			(project "SPINE-Vertebra"
 				(path "/bb031c1b-8fdd-4a87-b6da-88a40b964020"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 165.1 229.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed1c09d8-5d5e-405c-83fb-2c3e347ac49e")
-		(property "Reference" "D5"
-			(at 167.64 228.5364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 167.64 231.0764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 165.1 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 165.1 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 165.1 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20fe4732-c7a3-4592-8865-0683d72853bf")
-		)
-		(pin "2"
-			(uuid "0a9d56e3-7404-4374-beec-dcb3b3708d91")
-		)
-		(instances
-			(project "SPINE-Vertebra"
-				(path "/bb031c1b-8fdd-4a87-b6da-88a40b964020"
-					(reference "D5")
 					(unit 1)
 				)
 			)
