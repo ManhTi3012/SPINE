@@ -1,0 +1,33 @@
+# === STM32CubeIDE Specific ===
+.settings/
+*.launch
+*.ioproject
+*.mxproject
+.project
+.cproject
+# === Build output ===
+Debug/
+Release/
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# === Backup / temp files ===
+*.bak
+*.tmp
+*.log
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+*.xlsx
+*.zip
+*.csv
+# === Kicad Specific ===
+no_outline/
+production/
+backup/
+Panel/
