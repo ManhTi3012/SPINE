@@ -8,7 +8,7 @@
 
 
 # Overview
-S.P.I.N.E. is a decentralized power distribution architecture that splits control, distribution, and protection into discrete, stackable modules. Offers control over individual power rails, intelligent fault propagation, and telemetry via standard industrial buses.
+S.P.I.N.E. is a decentralized power distribution architecture that splits control, distribution, and protection into discrete, stackable modules. Offers control and monitor over individual power rails, telemetry via CAN bus, and fault protection like over current, over voltage(due to back EMF), emergency stop.
 
 # System Architecture
 The system is composed of three primary module types, functioning analogously to a biological nervous system:
@@ -31,13 +31,13 @@ Each Vertebra acts as an intelligent Power Distribution Unit (PDU).
 
 - Soft Start: Integrated Precharge circuit to prevent inrush current spikes during startup.
 
-- Sensing: Real-time current sensing on outputs.
+- Sensing: Real-time current and voltage sensing on outputs.
 
 - Fault Propagation:
 
   - Local: Can autonomously cut power upon detecting over-current events.
   
-  - Global: A "Critical Fault" in one Vertebra triggers a system-wide shutdown protocol to protect the rest of the hardware.
+  - Global: A "Critical Fault" in one Vertebra triggers a system-wide shutdown to protect the rest of the hardware.
 
 ## 3. Disc (Brake Chopper)
 A purely hardware-based protection module.
